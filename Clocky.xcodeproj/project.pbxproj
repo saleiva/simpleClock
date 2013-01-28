@@ -18,6 +18,8 @@
 		8315BC3016B6F08C008353C8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8315BC0D16B6F08C008353C8 /* Cocoa.framework */; };
 		8315BC3816B6F08D008353C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8315BC3616B6F08D008353C8 /* InfoPlist.strings */; };
 		8315BC3B16B6F08D008353C8 /* ClockyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315BC3A16B6F08D008353C8 /* ClockyTests.m */; };
+		83B6393116B7383800575FFC /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B6393016B7383800575FFC /* clock.png */; };
+		83B6393416B7396700575FFC /* clock_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B6393316B7396700575FFC /* clock_highlighted.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		8315BC3716B6F08D008353C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8315BC3916B6F08D008353C8 /* ClockyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockyTests.h; sourceTree = "<group>"; };
 		8315BC3A16B6F08D008353C8 /* ClockyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockyTests.m; sourceTree = "<group>"; };
+		83B6393016B7383800575FFC /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = ../../../Desktop/clock.png; sourceTree = "<group>"; };
+		83B6393316B7396700575FFC /* clock_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock_highlighted.png; path = ../../../Desktop/clock_highlighted.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 		8315BC1316B6F08C008353C8 /* Clocky */ = {
 			isa = PBXGroup;
 			children = (
+				83B6393216B7394000575FFC /* Resources */,
 				8315BC1F16B6F08C008353C8 /* AppDelegate.h */,
 				8315BC2016B6F08C008353C8 /* AppDelegate.m */,
 				8315BC2216B6F08C008353C8 /* MainMenu.xib */,
@@ -154,6 +159,15 @@
 				8315BC3616B6F08D008353C8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83B6393216B7394000575FFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83B6393016B7383800575FFC /* clock.png */,
+				83B6393316B7396700575FFC /* clock_highlighted.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,8 @@
 				8315BC1816B6F08C008353C8 /* InfoPlist.strings in Resources */,
 				8315BC1E16B6F08C008353C8 /* Credits.rtf in Resources */,
 				8315BC2416B6F08C008353C8 /* MainMenu.xib in Resources */,
+				83B6393116B7383800575FFC /* clock.png in Resources */,
+				83B6393416B7396700575FFC /* clock_highlighted.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +466,7 @@
 				8315BC4016B6F08D008353C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8315BC4116B6F08D008353C8 /* Build configuration list for PBXNativeTarget "ClockyTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +475,7 @@
 				8315BC4316B6F08D008353C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
